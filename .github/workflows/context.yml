@@ -1,0 +1,12 @@
+naem: CI
+
+on: [push]
+jobs:
+  build:
+    
+    runs-on: ubuntu-latest
+    steps:
+      - name: "contet"
+        env:
+          COMMIT_ID: ${{ github.sha }}
+        run: echo "Commit id => $COMMIT_ID"
