@@ -1,4 +1,4 @@
-naem: CI
+name: CI
 
 on: [push]
 jobs:
